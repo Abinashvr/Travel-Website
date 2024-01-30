@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#ee nav{
+    position: absolute;
+    margin-top: 70px;
+    margin-left: 35px;
+}
+#login{
+    background-image: linear-gradient(to right, rgba(192, 185, 185, 0.425), rgb(52, 53, 54));
+    padding-top: 75px;
+    height: 650px;
+    width: 100%;
+    position: absolute;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.5);
+    border: none;
+    border-radius: 7px;
+}
+.paymentcontrol{
+    text-align: center;
+    margin-left: 65px;
+    background-color: rgba(255, 255, 255, 0.5);
+    height: 28px;
+    width: 150px;
+    border-radius: 10px;
+    border: none;
+}
+#inp{
+    height: 28px;
+    width: 250px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border: none;
+    border-radius: 7px;
+}
+#button{
+    margin-left: 198px;
+    height: 28px;
+    width: 150px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border: none;
+    border-radius: 7px;
+}
+
+.footer{
+    position: absolute;
+    box-sizing: border-box;
+    margin-top: 650px;
+    height: 300px;
+    width: 100%;
+    padding: 50px 15%;
+    background: #333;
+    color: #efefef;
+    display: flex;
+}
+.footer div{
+    text-align: center;  
+}
+.footer div h3{
+    font-weight: 300;
+    margin-bottom: 30px;
+    letter-spacing: 1px ;
+}
+.col-1 a{
+    display: block;
+    text-decoration: none;
+    color: #efefef; 
+    margin-bottom: 25px;
+}
+.col-2{
+    flex-grow: 2;
+}
+.col-2 h3{
+    padding-left: 90px;
+}
+.col-3{
+    font-size: medium;
+}
+#foo{
+    padding-left: 95px;
+}
+#foot{
+    width: 400px;
+    height: 45px;
+    border-radius: 4px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    outline: none;
+    border: none;
+}
+#foote{
+    background: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+    border-radius: 30px;
+    padding: 10px 30px;
+    font-size: 15px;
+    cursor: pointer;
+}
+.social-icons{
+     margin-top: 30px;
+}
+.social-icons i{
+    font-size: 22px;
+    margin: 10px;
+    cursor: pointer;
+}
